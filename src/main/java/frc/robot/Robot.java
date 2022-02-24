@@ -44,7 +44,7 @@ public class Robot extends TimedRobot {
     m_magazine = new CANSparkMax(magazineID, MotorType.kBrushless);
     m_magazine.restoreFactoryDefaults();
 
-    m_climberL = new CANSparkMax(climberLID, MotorType.kBrushed);
+    m_climberL = new CANSparkMax(climberLID, MotorType.kBrushless);
     m_climberL.restoreFactoryDefaults();
     m_climberR = new CANSparkMax(climberRID, MotorType.kBrushless);
     m_climberR.restoreFactoryDefaults();
